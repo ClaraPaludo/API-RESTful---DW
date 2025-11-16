@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -18,6 +18,18 @@ function App() {
           Learn React
         </a>
       </header>
+    </div>
+  );
+}
+
+export default App;*/
+import TeamsList from "./components/TeamsList";
+import "./App.css";
+
+function App() {
+  return (
+    <div>
+      <TeamsList />
     </div>
   );
 }
